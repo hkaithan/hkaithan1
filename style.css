@@ -1,0 +1,75 @@
+h1 {
+	float: left;
+	width: 1500px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: linear-gradient(deepskyblue,black);
+}
+
+h3{
+	color: red;
+	font-size: 30pt;
+	text-shadow: 5px 2px 4px grey;
+}
+
+h4{
+	font-size: 20pt;
+	text-shadow: rgba(255,10,0,1) -1px -2px 0.5em;
+}
+
+nav {
+	padding: 50px 0;
+	min-height: 50px;
+}
+
+nav ul {
+	background: linear-gradient(deepskyblue,black);
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+
+nav ul li p{
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: inherit;
+	text-decoration: none;
+	display: block;
+}
+
+#first {
+	border: 2px dotted black;
+	padding: 20px;
+	background: lightblue;
+	background-clip: padding-box;
+}
+
+#second {
+	border: 2px dotted black;
+	padding: 20px;
+	background: lightblue;
+	background-clip: content-box;
+}
+
+p.select::selection {
+	background: #8bc34a;
+	color: #fff;
+}
+
+marquee {
+	color: red;
+	font-size: 30pt;
+	text-shadow: 5px 2px 4px grey;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+p.st{
+	color: darkred;
+}
